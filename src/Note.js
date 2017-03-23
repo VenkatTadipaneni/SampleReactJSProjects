@@ -53,8 +53,7 @@ var Note = React.createClass({
     },
     render() {
         return (<Draggable>
-            {(this.state.editing) ? this.renderForm()
-                : this.renderDisplay()}
+            {(this.state.editing) ? this.renderForm() : this.renderDisplay()}
         </Draggable>);
     }
 });
